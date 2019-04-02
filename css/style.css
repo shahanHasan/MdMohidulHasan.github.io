@@ -19,7 +19,7 @@ div.btnbg {
   top : 200px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  height: 350px;
+  height: 275px;
   position: relative;
   background-size: cover;
   background-position: 0 0;
@@ -60,7 +60,7 @@ div.btnbg {
 }
 .btnbg .secondline { 
   position: absolute;
-  top : 45px;
+  top : 60px;
   display : table-cell;
   vertical-align:middle;
   max-width:none;
@@ -76,7 +76,7 @@ div.btnbg {
   }
 .btnbg .thirdline {
   position: absolute;
-  top : 80px;
+  top : 100px;
   display : table-cell;
   vertical-align:middle;
   max-width:none;
@@ -94,7 +94,7 @@ div.btnbg {
 	  position: absolute;
 	  width : 100%;
 	  text-align : center;
-	  top : 90px;
+	  top : 140px;
           max-width:none;
 	  min-width : 500px;
 	  transform : translateY(-50%,-50%);
@@ -243,5 +243,4 @@ div.btnbg {
 	font-size: 10px;
 	transition : 0.5s linear;
 }
-
 }
