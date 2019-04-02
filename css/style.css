@@ -19,6 +19,7 @@ div.btnbg {
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
+  max-width: 500px;
   height: 200px;
   position: relative;
   background-size: cover;
@@ -47,8 +48,8 @@ div.btnbg {
   position: absolute;
   display : table-cell;
   vertical-align:middle;
-  max-width:none;
   width:100%;
+  max-width: 500px;
   text-align : center;
   color: white; 
   font-size: 2.3em;
@@ -63,7 +64,7 @@ div.btnbg {
   top : 45px;
   display : table-cell;
   vertical-align:middle;
-  max-width:none;
+  max-width:500px;
   width:100%;
   text-align : center;
   color: white; 
@@ -79,7 +80,7 @@ div.btnbg {
   top : 80px;
   display : table-cell;
   vertical-align:middle;
-  max-width:none;
+  max-width:500px;
   width:100%;
   text-align : center;
   color: white; 
@@ -95,7 +96,7 @@ div.btnbg {
 	  width : 100%;
 	  text-align : center;
 	  top : 90px;
-      max-width:none;
+          max-width:500px;
 	  transform : translateY(-50%,-50%);
       }
 .btn {
@@ -159,91 +160,4 @@ div.btnbg {
 		left:-10%;
 	}
 }
-@media only screen and (min-width:0px) and (max-width:500px){
-  .bg {
-  display : table;
-  top : 120px;
-  background: #00fdff url(../assets/Images/bg1.jpg) ;
-  width: 100%;
-  height: 150px;
-  position: relative;
-  background-size: cover;
-  background-position: 0 0;
-  background-repeat: repeat-y;
-  -webkit-animation: mymove 10s linear infinite;
-  animation: animate 15s linear infinite;
-}
-.btnbg .firstline {
-  position: absolute;
-  display : table-cell;
-  vertical-align:middle;
-  width:100%;
-  max-width: 500px;
-  text-align : center;
-  color: white; 
-  font-size: 1.0em;
-  font-weight: 500;  
-  font-family : Arial ;
-  padding-right : 10px;
-  padding-left : 10px;
-  background-color : black;
-}
-.btnbg .secondline { 
-  position: absolute;
-  top : 20px;
-  display : table-cell;
-  vertical-align:middle;
-  width:100%;
-  max-width: 500px;
-  text-align : center;
-  color: white; 
-  font-size: 0.5em;
-  font-weight: 500;  
-  font-family : Arial;
-  padding-right : 10px;
-  padding-left : 10px;
-  background-color : black;
-  }
-.btnbg .thirdline {
-  position: absolute;
-  top : 30px;
-  display : table-cell;
-  vertical-align:middle;
-  width:100%;
-  max-width: 500px;
-  text-align : center;
-  color: white; 
-  font-size: 0.5em;
-  font-weight: 500;  
-  font-family : Arial;
-  padding-right : 10px;
-  padding-left : 10px;
-  background-color : black;
-}
-	  .horizontal {
-	  position: absolute;
-	  width : 100%;
-	  text-align : center;
-	  vertical-align:middle;
-	  top : 40px;
-          max-width:none;
-	  transform : translateY(-50%,-50%);
-	}
-	.btn {
-	color : black ;
-	display : block ;
-	width : 8px;
-	height : 8px;
-	background : #D7CFCD;
-	margin : 3px ;
-	border-radius : 5%;
-	overflow : hidden;
-	position : relative;
-	box-shadow : 0 3px 8px rgba(0,0,0,.3);
-}
-.btn i {
-	line-height: 5px;
-	font-size: 5px;
-	transition : 0.5s linear;
-}
-}
+
