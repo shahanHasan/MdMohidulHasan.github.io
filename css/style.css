@@ -14,14 +14,14 @@ div.btnbg {
     left:0;
     top:0;
     width : 100%;
-    min-width : 500px;
+    min-width : 768px;
 }
 .bg {
   display : table;
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  min-width:500px;
+  min-width:768px;
   height: 200px;
   position: relative;
   background-size: cover;
@@ -51,9 +51,8 @@ div.btnbg {
   position: absolute;
   display : table-cell;
   vertical-align:middle;
-  min-width:700px;
-  width:100%;
   min-width:768px;
+  width:100%;
   text-align : center;
   color: white; 
   font-size: 2.3em;
@@ -68,7 +67,7 @@ div.btnbg {
   top : 45px;
   display : table-cell;
   vertical-align:middle;
-  min-width:700px;
+  min-width:768px;
   width:100%;
   text-align : center;
   color: white; 
@@ -84,7 +83,7 @@ div.btnbg {
   top : 80px;
   display : table-cell;
   vertical-align:middle;
-  min-width:700px;
+  min-width:768px;
   width:100%;
   text-align : center;
   color: white; 
@@ -100,7 +99,7 @@ div.btnbg {
 	  width : 100%;
 	  text-align : center;
 	  top : 90px;
-          min-width:700px;
+          min-width:768px;
 	  transform : translateY(-50%,-50%);
       }
 .btn {
