@@ -125,6 +125,7 @@ div.btnbg {
 	content:"";
 	position:absolute;
 	width : 125%;
+	max-width: 500px;
 	height: 122%;
 	background : #ADACAD;
 	transform : rotate(45deg);
