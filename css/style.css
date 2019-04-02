@@ -19,7 +19,6 @@ div.btnbg {
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  max-width:600px;
   height: 200px;
   position: relative;
   background-size: cover;
@@ -48,7 +47,6 @@ div.btnbg {
   position: absolute;
   display : table-cell;
   vertical-align:middle;
-  max-width:600px;
   width:100%;
   text-align : center;
   color: white; 
@@ -64,7 +62,6 @@ div.btnbg {
   top : 45px;
   display : table-cell;
   vertical-align:middle;
-  max-width:600px;
   width:100%;
   text-align : center;
   color: white; 
@@ -80,7 +77,6 @@ div.btnbg {
   top : 80px;
   display : table-cell;
   vertical-align:middle;
-  max-width:600px;
   width:100%;
   text-align : center;
   color: white; 
@@ -94,10 +90,9 @@ div.btnbg {
 .horizontal {
 	  position: absolute;
 	  width : 100%;
-	  max-width:600px;
 	  text-align : center;
 	  top : 90px;
-      max-width:none;
+          max-width:none;
 	  transform : translateY(-50%,-50%);
       }
 .btn {
@@ -167,7 +162,6 @@ div.btnbg {
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  max-width:600px;
   height: 200px;
   position: relative;
   background-size: cover;
