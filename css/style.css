@@ -19,6 +19,7 @@ div.btnbg {
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
+  min-width : 500px;
   height: 200px;
   position: relative;
   background-size: cover;
@@ -49,6 +50,7 @@ div.btnbg {
   vertical-align:middle;
   max-width:none;
   width:100%;
+  min-width : 500px;
   text-align : center;
   color: white; 
   font-size: 2.3em;
@@ -65,6 +67,7 @@ div.btnbg {
   vertical-align:middle;
   max-width:none;
   width:100%;
+  min-width : 500px;
   text-align : center;
   color: white; 
   font-size: 1.6em;
@@ -81,6 +84,7 @@ div.btnbg {
   vertical-align:middle;
   max-width:none;
   width:100%;
+  min-width : 500px;
   text-align : center;
   color: white; 
   font-size: 1.6em;
@@ -93,15 +97,17 @@ div.btnbg {
 .horizontal {
 	  position: absolute;
 	  width : 100%;
+	  min-width : 500px;
 	  text-align : center;
 	  top : 90px;
-      max-width:none;
+          max-width:none;
 	  transform : translateY(-50%,-50%);
       }
 .btn {
 	color : black ;
 	display : inline-block ;
 	width : 70px;
+	min-width : 500px;
 	height : 70px;
 	background : #D7CFCD;
 	margin : 25px ;
@@ -158,26 +164,4 @@ div.btnbg {
 		top :-10%;
 		left:-10%;
 	}
-}
-@media (min-width: 600px) {
-	.bg {
-  min-width : 600px;
-}
-.btnbg .firstline {
-  min-width : 500px;
-}
-.btnbg .secondline { 
-  min-width : 500px;  
-  }
-.btnbg .thirdline {
-  min-width : 500px; 
-}
-}
-@media screen and (min-width: 500px) {
-	.horizontal {
-	  min-width : 500px;
-	}
-	.btn {
-        min-width : 500px;
-}
 }
