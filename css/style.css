@@ -22,7 +22,7 @@ div.btnbg {
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  min-width:500px;
+  
   height: 200px;
   position: relative;
   background-size: cover;
