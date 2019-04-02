@@ -165,6 +165,7 @@ div.btnbg {
   top : 120px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
+  min-width : 500px;
   height: 300px;
   position: relative;
   background-size: cover;
@@ -173,35 +174,16 @@ div.btnbg {
   -webkit-animation: mymove 10s linear infinite;
   animation: animate 15s linear infinite;
 }
-@keyframes animate {
-	from {
-	background-position: 0 100%;
-	}
-	to {
-	background-position: 0 0;
-	}
-	}
-@-webkit-keyframes animate {
-	from {
-	background-position: 0 100%;
-	}
-	to {
-	background-position: 0 0;
-	}
-	}
 .btnbg .firstline {
   position: absolute;
   display : table-cell;
   vertical-align:middle;
   width:100%;
+  min-width : 500px;
   text-align : center;
   color: white; 
   font-size: 0.8em;
-  font-weight: 900;  
-  font-family : Arial ;
-  padding-right : 10px;
-  padding-left : 10px;
-  background-color : black;
+  font-weight: 500;  
 }
 .btnbg .secondline { 
   position: absolute;
@@ -209,14 +191,11 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
+  min-width : 500px;
   text-align : center;
   color: white; 
   font-size: 0.4em;
-  font-weight: 900;  
-  font-family : Arial;
-  padding-right : 10px;
-  padding-left : 10px;
-  background-color : black;
+  font-weight: 500;  
   }
 .btnbg .thirdline {
   position: absolute;
@@ -224,19 +203,16 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
-  text-align : center;
+  min-width : 500px;
   color: white; 
   font-size: 0.4em;
-  font-weight: 900;  
-  font-family : Arial;
-  padding-right : 10px;
-  padding-left : 10px;
-  background-color : black;
+  font-weight: 500;  
 }
 }
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 500px) {
 	.horizontal {
 	  position: absolute;
+	  min-width : 500px;
 	  width : 100%;
 	  text-align : center;
 	  vertical-align:middle;
@@ -248,6 +224,7 @@ div.btnbg {
 	color : black ;
 	display : block ;
 	width : 10px;
+        min-width : 500px;
 	height : 10px;
 	background : #D7CFCD;
 	margin : 5px ;
@@ -260,49 +237,5 @@ div.btnbg {
 	line-height: 10px;
 	font-size: 5px;
 	transition : 0.5s linear;
-}
-.btn:hover i {
-	transform : scale(1.30);
-	color : #122F76;
-}
-
-.btn::before {
-	content:"";
-	position:absolute;
-	width : 125%;
-	height: 122%;
-	background : #ADACAD;
-	transform : rotate(45deg);
-	left : -100%;
-	top : 100%;
-}
-.btn:hover::before {
-	animation : anime 0.5s;
-	top : -10%;
-	left : -10%;
-}
-@keyframes anime {
-	0% {
-		left: -100%;
-		top : 100%;
-	} 50% {
-		left:10%;
-		top: -30%;
-	} 100% {
-		top :-10%;
-		left:-10%;
-	}
-}
-@-webkit-keyframes anime {
-	0% {
-		left: -100%;
-		top : 100%;
-	} 50% {
-		left:10%;
-		top: -30%;
-	} 100% {
-		top :-10%;
-		left:-10%;
-	}
 }
 }
