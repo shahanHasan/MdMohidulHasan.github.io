@@ -159,7 +159,7 @@ div.btnbg {
 		left:-10%;
 	}
 }
-@media only screen and (max-width:600px) and (min-width:0px){
+@media only screen and (min-width:0px) and (max-width:500px){
   .bg {
   display : table;
   top : 120px;
@@ -178,11 +178,11 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
-  max-width: 600px;
+  max-width: 500px;
   text-align : center;
   color: white; 
   font-size: 1.0em;
-  font-weight: 900;  
+  font-weight: 500;  
   font-family : Arial ;
   padding-right : 10px;
   padding-left : 10px;
@@ -194,11 +194,11 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
-  max-width: 600px;
+  max-width: 500px;
   text-align : center;
   color: white; 
   font-size: 0.5em;
-  font-weight: 900;  
+  font-weight: 500;  
   font-family : Arial;
   padding-right : 10px;
   padding-left : 10px;
@@ -210,11 +210,11 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
-  max-width: 600px;
+  max-width: 500px;
   text-align : center;
   color: white; 
   font-size: 0.5em;
-  font-weight: 900;  
+  font-weight: 500;  
   font-family : Arial;
   padding-right : 10px;
   padding-left : 10px;
@@ -232,17 +232,17 @@ div.btnbg {
 	.btn {
 	color : black ;
 	display : block ;
-	width : 10px;
-	height : 10px;
+	width : 8px;
+	height : 8px;
 	background : #D7CFCD;
-	margin : 5px ;
+	margin : 3px ;
 	border-radius : 5%;
 	overflow : hidden;
 	position : relative;
 	box-shadow : 0 3px 8px rgba(0,0,0,.3);
 }
 .btn i {
-	line-height: 10px;
+	line-height: 5px;
 	font-size: 5px;
 	transition : 0.5s linear;
 }
