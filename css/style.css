@@ -76,7 +76,7 @@ div.btnbg {
   }
 .btnbg .thirdline {
   position: absolute;
-  top : 180px;
+  top : 350px;
   display : table-cell;
   vertical-align:middle;
   max-width:none;
