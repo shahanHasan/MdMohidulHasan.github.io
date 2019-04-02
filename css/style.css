@@ -14,6 +14,7 @@ div.btnbg {
     top:0;
     width : 100%;
     min-width : 768px;
+    margin : 0;
 }
 .bg {
   display : table;
@@ -26,6 +27,7 @@ div.btnbg {
   background-size: cover;
   background-position: 0 0;
   background-repeat: repeat-y;
+
   -webkit-animation: mymove 10s linear infinite;
   animation: animate 15s linear infinite;
 }
@@ -49,7 +51,7 @@ div.btnbg {
   position: absolute;
   display : table-cell;
   vertical-align:middle;
-  
+  min-width:768px;
   width:100%;
   text-align : center;
   color: white; 
@@ -66,6 +68,7 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
+  min-width:768px;
   text-align : center;
   color: white; 
   font-size: 1.6em;
@@ -81,6 +84,7 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
+  min-width:768px;
   text-align : center;
   color: white; 
   font-size: 1.6em;
@@ -93,6 +97,7 @@ div.btnbg {
 .horizontal {
 	  position: absolute;
 	  width : 100%;
+          min-width:768px;
 	  text-align : center;
 	  top : 90px;
 	  transform : translateY(-50%,-50%);
