@@ -96,7 +96,7 @@ div.btnbg {
 .horizontal {
 	  position: absolute;
 	  width : 100%;
-	  min-width : 500px;
+	  min-width : 600px;
 	  text-align : center;
 	  top : 90px;
           max-width:none;
@@ -106,7 +106,6 @@ div.btnbg {
 	color : black ;
 	display : inline-block ;
 	width : 70px;
-	min-width : 500px;
 	height : 70px;
 	background : #D7CFCD;
 	margin : 25px ;
