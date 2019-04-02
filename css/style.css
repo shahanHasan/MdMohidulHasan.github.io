@@ -16,7 +16,7 @@ div.btnbg {
 }
 .bg {
   display : table;
-  top : 320px;
+  top : 120px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
   min-width : 300px;
