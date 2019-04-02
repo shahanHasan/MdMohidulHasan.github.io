@@ -44,7 +44,6 @@ div.btnbg {
 	}
 	}
 .btnbg .firstline {
-  min-width : 500px;
   position: absolute;
   display : table-cell;
   vertical-align:middle;
@@ -60,7 +59,6 @@ div.btnbg {
   background-color : black;
 }
 .btnbg .secondline { 
-  min-width : 500px;
   position: absolute;
   top : 45px;
   display : table-cell;
@@ -77,7 +75,6 @@ div.btnbg {
   background-color : black;
   }
 .btnbg .thirdline {
-  min-width : 500px;
   position: absolute;
   top : 80px;
   display : table-cell;
@@ -163,13 +160,12 @@ div.btnbg {
 		left:-10%;
 	}
 }
-@media only screen and (max-width:600px) {
+@media only screen and (min-width: 0px) and (max-width: 600px){
 	.bg {
-  display : table;
-  top : 120px;
+  top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  height: 150px;
+  height: 350px;
   position: relative;
   background-size: cover;
   background-position: 0 0;
@@ -177,22 +173,6 @@ div.btnbg {
   -webkit-animation: mymove 10s linear infinite;
   animation: animate 15s linear infinite;
 }
-@keyframes animate {
-	from {
-	background-position: 0 100%;
-	}
-	to {
-	background-position: 0 0;
-	}
-	}
-@-webkit-keyframes animate {
-	from {
-	background-position: 0 100%;
-	}
-	to {
-	background-position: 0 0;
-	}
-	}
 .btnbg .firstline {
   position: absolute;
   display : table-cell;
@@ -248,7 +228,7 @@ div.btnbg {
 	}
 	.btn {
 	color : black ;
-	display : inline-block ;
+	display : block ;
 	width : 20px;
 	height : 20px;
 	background : #D7CFCD;
@@ -263,48 +243,5 @@ div.btnbg {
 	font-size: 10px;
 	transition : 0.5s linear;
 }
-.btn:hover i {
-	transform : scale(1.30);
-	color : #122F76;
-}
 
-.btn::before {
-	content:"";
-	position:absolute;
-	width : 125%;
-	height: 122%;
-	background : #ADACAD;
-	transform : rotate(45deg);
-	left : -100%;
-	top : 100%;
-}
-.btn:hover::before {
-	animation : anime 0.5s;
-	top : -10%;
-	left : -10%;
-}
-@keyframes anime {
-	0% {
-		left: -100%;
-		top : 100%;
-	} 50% {
-		left:10%;
-		top: -30%;
-	} 100% {
-		top :-10%;
-		left:-10%;
-	}
-}
-@-webkit-keyframes anime {
-	0% {
-		left: -100%;
-		top : 100%;
-	} 50% {
-		left:10%;
-		top: -30%;
-	} 100% {
-		top :-10%;
-		left:-10%;
-	}
-}
 }
