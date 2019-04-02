@@ -162,7 +162,7 @@ div.btnbg {
 }
 @media only screen and (min-width: 0px) and (max-width: 600px){
 	.bg {
-  top : 220px;
+  top : 320px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
   height: 350px;
@@ -223,7 +223,7 @@ div.btnbg {
 	  text-align : center;
 	  vertical-align:middle;
 	  top : 50px;
-      max-width:none;
+          max-width:600px;
 	  transform : translateY(-50%,-50%);
 	}
 	.btn {
