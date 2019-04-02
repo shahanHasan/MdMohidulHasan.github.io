@@ -226,16 +226,15 @@ div.btnbg {
 	.horizontal {
 	  position: absolute;
 	  width : 100%;
-	  max-width:600px;
 	  text-align : center;
 	  vertical-align:middle;
 	  top : 80px;
-      max-width:none;
+          max-width:600px;
 	  transform : translateY(-50%,-50%);
 	}
 	.btn {
 	color : black ;
-	display : inline-block ;
+	display : block ;
 	width : 10px;
 	height : 10px;
 	background : #D7CFCD;
