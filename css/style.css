@@ -19,7 +19,6 @@ div.btnbg {
   top : 220px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  max-width: 500px;
   height: 200px;
   position: relative;
   background-size: cover;
@@ -49,7 +48,6 @@ div.btnbg {
   display : table-cell;
   vertical-align:middle;
   width:100%;
-  max-width: 500px;
   text-align : center;
   color: white; 
   font-size: 2.3em;
@@ -64,7 +62,6 @@ div.btnbg {
   top : 45px;
   display : table-cell;
   vertical-align:middle;
-  max-width:500px;
   width:100%;
   text-align : center;
   color: white; 
@@ -80,7 +77,6 @@ div.btnbg {
   top : 80px;
   display : table-cell;
   vertical-align:middle;
-  max-width:500px;
   width:100%;
   text-align : center;
   color: white; 
@@ -96,7 +92,6 @@ div.btnbg {
 	  width : 100%;
 	  text-align : center;
 	  top : 90px;
-          max-width:500px;
 	  transform : translateY(-50%,-50%);
       }
 .btn {
@@ -161,17 +156,15 @@ div.btnbg {
 		left:-10%;
 	}
 }
-@media screen and (min-width: 0px) and (max-width: 600px) {
+@media (min-width: 0px) and (max-width: 600px) {
 .bg {
   top : 180px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  max-width: 500px;
   height: 200px;
 }
 .btnbg .firstline {
   width:100%;
-  max-width: 500px;
   font-size: 2.3em;
 }
 .btnbg .secondline { 
@@ -182,18 +175,16 @@ div.btnbg {
 .btnbg .thirdline {
   position: absolute;
   top : 80px;
-  max-width:500px;
   width:100%;
   font-size: 1.6em;
 }	
 }
-@media screen and (min-width: 0px) and (max-width: 600px){
+@media (min-width: 0px) and (max-width: 600px){
 .horizontal {
 	  position: absolute;
 	  width : 100%;
 	  text-align : center;
 	  top : 90px;
-          max-width:600px;
 	  transform : translateY(-50%,-50%);
       }
 .btn {
