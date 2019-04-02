@@ -161,81 +161,23 @@ div.btnbg {
 }
 @media (min-width: 600px) {
 	.bg {
-  display : table;
-  top : 250px;
-  background: #00fdff url(../assets/Images/bg1.jpg) ;
-  width: 100%;
   min-width : 600px;
-  height: 300px;
-  position: relative;
-  background-size: cover;
-  background-position: 0 0;
-  background-repeat: repeat-y;
-  -webkit-animation: mymove 10s linear infinite;
-  animation: animate 15s linear infinite;
 }
 .btnbg .firstline {
-  position: absolute;
-  display : table-cell;
-  vertical-align:middle;
-  width:100%;
   min-width : 500px;
-  text-align : center;
-  color: white; 
-  font-size: 1.3em;
-  font-weight: 500;  
 }
 .btnbg .secondline { 
-  position: absolute;
-  top : 20px;
-  display : table-cell;
-  vertical-align:middle;
-  width:100%;
-  min-width : 500px;
-  text-align : center;
-  color: white; 
-  font-size: 0.8em;
-  font-weight: 500;  
+  min-width : 500px;  
   }
 .btnbg .thirdline {
-  position: absolute;
-  top : 40px;
-  display : table-cell;
-  vertical-align:middle;
-  width:100%;
-  min-width : 500px;
-  color: white; 
-  font-size: 0.8em;
-  font-weight: 500;  
+  min-width : 500px; 
 }
 }
 @media screen and (min-width: 500px) {
 	.horizontal {
-	  position: absolute;
 	  min-width : 500px;
-	  width : 100%;
-	  text-align : center;
-	  vertical-align:middle;
-	  top : 60px;
-          max-width:none;
-	  transform : translateY(-50%,-50%);
 	}
 	.btn {
-	color : black ;
-	display : block ;
-	width : 25px;
         min-width : 500px;
-	height : 15px;
-	background : #D7CFCD;
-	margin : 5px ;
-	border-radius : 5%;
-	overflow : hidden;
-	position : relative;
-	box-shadow : 0 3px 10px rgba(0,0,0,.3);
-}
-.btn i {
-	line-height: 20px;
-	font-size: 20px;
-	transition : 0.5s linear;
 }
 }
