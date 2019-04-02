@@ -16,10 +16,10 @@ div.btnbg {
 }
 .bg {
   display : table;
-  top : 220px;
+  top : 200px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  height: 200px;
+  height: 300px;
   position: relative;
   background-size: cover;
   background-position: 0 0;
@@ -51,7 +51,7 @@ div.btnbg {
   width:100%; 
   text-align : center;
   color: white; 
-  font-size: 2.3em;
+  font-size: 3.0em;
   font-weight: 900;  
   font-family : Arial ;
   padding-right : 10px;
@@ -67,7 +67,7 @@ div.btnbg {
   width:100%;
   text-align : center;
   color: white; 
-  font-size: 1.6em;
+  font-size: 2.0em;
   font-weight: 900;  
   font-family : Arial;
   padding-right : 10px;
@@ -83,7 +83,7 @@ div.btnbg {
   width:100%;
   text-align : center;
   color: white; 
-  font-size: 1.6em;
+  font-size: 2.0em;
   font-weight: 900;  
   font-family : Arial;
   padding-right : 10px;
