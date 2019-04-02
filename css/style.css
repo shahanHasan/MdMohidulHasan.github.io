@@ -156,33 +156,37 @@ div.btnbg {
 		left:-10%;
 	}
 }
-@media (min-width: 0px) and (max-width: 600px) {
-.bg {
+@media screen and (min-width: 0px) and (max-width: 600px) {
+  .bg {
   top : 180px;
   background: #00fdff url(../assets/Images/bg1.jpg) ;
   width: 100%;
-  height: 200px;
+  height: 300px;
 }
 .btnbg .firstline {
   width:100%;
+  max-width: 600px;
   font-size: 2.3em;
 }
 .btnbg .secondline { 
   top : 45px;
   width:100%; 
+  max-width: 600px;
   font-size: 1.6em;
   }
 .btnbg .thirdline {
   position: absolute;
   top : 80px;
   width:100%;
+  max-width: 600px;
   font-size: 1.6em;
 }	
 }
-@media (min-width: 0px) and (max-width: 600px){
+@media screen and (min-width: 0px) and (max-width: 600px){
 .horizontal {
 	  position: absolute;
 	  width : 100%;
+	  max-width: 600px;
 	  text-align : center;
 	  top : 90px;
 	  transform : translateY(-50%,-50%);
